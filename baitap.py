@@ -216,21 +216,35 @@
 # 2.	Display n  in binary number format.
 # 3.	Re-input n . Calculate the sum of all digits of n.
 # 4.	Find the number m, which is the reverse of n. 
-def bin(a):
-    arr = []  
-    b = ''
-    while True:
-        arr.append(a % 2)
-        a //= 2 
-        if a == 0:
-            break
-    for i in arr[::-1]:
-        b += str(i)
-        
-    return int(b)
+#Int to Bin and contrast
+    # def int_to_bin(a):
+    #     arr = []  
+    #     b = ''
+    #     while True:
+    #         arr.append(a % 2)
+    #         a //= 2 
+    #         if a == 0:
+    #             break
+    #     for i in arr[::-1]:
+    #         b += str(i)       
+    #     return int(b)
 
-num = int(input('Enter:'))
-print('Int -> Bin:',bin(num))            
+    # def bin_to_int(b):
+    #     bin_num = 0
+    #     x = 0
+    #     for i in b[::-1]:
+    #         if i != '0' and  i != '1':
+    #             return 'Error Value'
+    #         bin_num += (2**x)*int(i)
+    #         x +=1
+            
+    #     return bin_num 
+
+    # int_num = int(input('Enter an int:'))
+    # bin_num = input('Enter an bin:')
+    # print('Int -> Bin:',int_to_bin(int_num))  
+    # print ('Bin -> Int:',bin_to_int(bin_num))         
+
 
 
           
