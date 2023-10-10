@@ -243,8 +243,17 @@
     # int_num = int(input('Enter an int:'))
     # bin_num = input('Enter an bin:')
     # print('Int -> Bin:',int_to_bin(int_num))  
-    # print ('Bin -> Int:',bin_to_int(bin_num))         
-
+    # print ('Bin -> Int:',bin_to_int(bin_num))     
+# Check Palindrome Number    
+    # def palindrome_num(a):
+    #     for i in range(len(a[::])):
+    #         if a[i] == a[x]:
+    #             x -= 1
+    #             return 'Entered data is palindrome'
+    #         else :
+    #             return 'Entered data is not palindrome'
+    # number = input('Enter data:')    
+    # print(palindrome_num(number))
 
 
           
